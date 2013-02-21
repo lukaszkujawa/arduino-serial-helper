@@ -1,6 +1,14 @@
+/*
+	SerialHelper - Invert
+   
+	Demonstrates the use of SerialHelper library. 
+
+	Created by Lukasz Kujawa <lukasz@php.net>, http://systemsarchitect.net
+*/
+
 #include <SerialHelper.h>
 
-SerialHelper serialHelper(512, 0);
+SerialHelper serialHelper(128, 0);
 
 void setup() {
   Serial.begin(9600);
